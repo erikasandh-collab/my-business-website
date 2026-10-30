@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap');
+
 body {
     margin: 0;
-
+    color: black;
+}
+body.dark{
+    background-color: #222;
+    color: white;
 }
 header h1 {
     color: red;
+    font-family: "Outfit", sans-serif;
 }
 header nav a{
     color: pink;
@@ -36,4 +44,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family:"Outfit", sans-serif;
+}
+
+#Btn {
+    display: block;
+    margin: 20px 20px 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
 }
